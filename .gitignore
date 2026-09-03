@@ -1,3 +1,6 @@
+# local backups (cp file file.bak-YYYYMMDD convention)
+*.bak-*
+
 .DS_Store
 .claude/
 bin
@@ -92,3 +95,4 @@ tests/stemlib_checksums.txt
 
 # Debug files
 *.dSYM/
+
