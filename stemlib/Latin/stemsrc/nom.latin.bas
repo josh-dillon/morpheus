@@ -1015,6 +1015,8 @@
 
 :le:Plato
 :no:Plat	o_oLnis masc
+:no:Plat	oLn_oLnis masc acc sg
+:no:Plat	oLn_oLnis masc acc pl
 
 :le:plebs
 :no:ple_b s_is fem
