@@ -481,6 +481,44 @@ int checkstring3(gk_word *Gkword)
 	return(accrval);
       }
     }
+
+    /*
+     * v/u disambiguation (inverse of the u/v pass above): handles
+     * V-for-U orthography ("Vlixes", "ABACTORIBVS",
+     * "habebitvr", "scrobibvs"). Scans for v/V positions where the
+     * next char is NOT a Latin vowel (i.e. v acting as vowel),
+     * enumerates all 2^N subsets, tries each via checkstring4.
+     */
+    npos = 0;
+    accrval = 0;
+    for( idx = 0; idx < wlen - 1; idx++ ) {
+      if( (saveword[idx] == 'v' || saveword[idx] == 'V') &&
+	  ! LatVow(saveword[idx + 1]) ) {
+	if( npos >= (int)(sizeof(positions)/sizeof(positions[0])) ) {
+	  npos = 0;
+	  break;
+	}
+	positions[npos++] = idx;
+      }
+    }
+    if( npos > 0 ) {
+      nvariants = 1 << npos;
+      for( mask = 1; mask < nvariants; mask++ ) {
+	Xstrncpy(workword,saveword,sizeof(workword));
+	for( k = 0; k < npos; k++ ) {
+	  if( mask & (1 << k) ) {
+	    p = positions[k];
+	    workword[p] = (workword[p] == 'V') ? 'U' : 'u';
+	  }
+	}
+	set_workword(Gkword,workword);
+	accrval += checkstring4(Gkword);
+      }
+      set_workword(Gkword,saveword);
+      if( accrval ) {
+	return(accrval);
+      }
+    }
   }
 
   /*
