@@ -211716,9 +211716,10 @@ u_li_go
 
 U^lixes		<orth>U^lys-ses</orth>	
 :le:Ulixes
-:aj:U^lix	es_is masc
-:aj:U^lys-s	es_is masc orth
-
+:no:U^lix	es_ae masc
+:no:U^lix	es_is masc
+:no:U^lix	eus_ei masc gen sg
+:no:U^lys-s	es_is masc orth
 
 
 ulla_te^nus		
