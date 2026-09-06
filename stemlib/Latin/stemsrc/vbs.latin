@@ -1259,6 +1259,10 @@
 :de:as-sell	are_vb dep
 :le:assenesco
 :vs:as-se^ne_sc	conj3
+:le:assentio
+:vs:as-sent	conj4
+:vs:as-sens perfstem
+:vs:as-sens pp4
 :le:assentior
 :vs:as-sent	conj4 dep
 :vs:as-sens pp4
