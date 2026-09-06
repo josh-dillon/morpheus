@@ -500,6 +500,39 @@ int equiv_anal(gk_analysis *anal1, gk_analysis *anal2)
 			return(0);
 
 	if(stemtype_of(anal1) != stemtype_of(anal2)) return(0);
-	
+
 	return(1);
+}
+
+/* Latin post-hoc dedup for the assimilated prefix rescue.
+ * The rescue may reach a lemma via two paths: direct lookup of an `orth`
+ * stem (workword = unassimilated input) and recursive checkstring3 after
+ * prefix rewrite (workword = assimilated form). equiv_anal keeps them as
+ * distinct because their workwords differ. This pass merges any two
+ * analyses that would be equivalent if workword were ignored, preserving
+ * the FIRST-added analysis (whose workword matches the user's input). */
+void dedup_analyses(gk_word *Gkword)
+{
+	int n = totanal_of(Gkword);
+	int i, j, k;
+	for (i = 0; i < n - 1; i++) {
+		for (j = i + 1; j < n; ) {
+			gk_analysis *a = analysis_of(Gkword) + i;
+			gk_analysis *b = analysis_of(Gkword) + j;
+			if (!strcmp(lemma_of(a),     lemma_of(b))
+			 && !strcmp(preverb_of(a),   preverb_of(b))
+			 && !strcmp(endstring_of(a), endstring_of(b))
+			 && stemtype_of(a) == stemtype_of(b)
+			 && eq_forminfo(forminfo_of(a), forminfo_of(b)))
+			{
+				merge_anal_dialects(a, b);
+				for (k = j; k < n - 1; k++)
+					analysis_of(Gkword)[k] = analysis_of(Gkword)[k + 1];
+				n--;
+			} else {
+				j++;
+			}
+		}
+	}
+	totanal_of(Gkword) = n;
 }

@@ -4,6 +4,7 @@
 #include "checkstring.proto.h"
 #include "checkcrasis.proto.h"
 #include "checkindecl.proto.h"
+#include "checkgenwds.proto.h"
 #include "checknom.proto.h"
 #include "checkword.proto.h"
 #include "prntanal.proto.h"
@@ -85,6 +86,9 @@ gk_word * AnalyzeString(char *string, PrntFlags prntflags)
 	stand_phonetics(Gkword);
 	
 	checkstring1(Gkword);
+
+	if (cur_lang() == LATIN)
+		dedup_analyses(Gkword);
 
 	return(Gkword);
 }
@@ -806,6 +810,77 @@ int checkstring3(gk_word *Gkword)
 	  }
         default:
 	  break;
+      }
+    }
+  }
+
+/* Latin unassimilated consonantal prefix rescue. If the input starts with
+   an unassimilated prefix + assimilating consonant, ALSO try the assimilated
+   form. This accumulates parses on to Gkword; it does not replace the
+   compound recognition path. Rescue fires in one direction only, so it
+   cannot loop through the recursive checkstring3() call. */
+  if (cur_lang() == LATIN)
+  {
+    static const struct {
+      const char *pfx;         /* prefix to detect at start of word */
+      char        changing;    /* the final char of pfx that gets rewritten */
+      const char *total_asm;   /* following chars -> TOTAL assim (changing := next) */
+      char        partial_to;  /* for partial assim: what to change to (0 = none) */
+      const char *partial_asm; /* following chars -> PARTIAL assim (changing := partial_to) */
+    } rules[] = {
+      /* ad + {c,f,g,l,n,p,r,s,t}  -> total   |  ad + q -> ac (partial) */
+      { "ad",  'd', "cfglnprst",  'c', "q"  },
+      /* con + {l,m,r}             -> total   |  con + {b,p} -> com (partial) */
+      { "con", 'n', "lmr",        'm', "bp" },
+      /* ex + f                    -> total (x -> f, giving eff-) */
+      { "ex",  'x', "f",          0,   ""   },
+      /* in + {l,r}                -> total   |  in + {b,m,p} -> im (partial) */
+      { "in",  'n', "lr",         'm', "bmp"},
+      /* ob + {c,f,p}              -> total */
+      { "ob",  'b', "cfp",        0,   ""   },
+      /* sub + {c,f,g,m,p,r}       -> total */
+      { "sub", 'b', "cfgmpr",     0,   ""   },
+      { NULL,  0,   NULL,         0,   NULL }
+    };
+    int i;
+    for (i = 0; rules[i].pfx != NULL; i++)
+    {
+      size_t plen = strlen(rules[i].pfx);
+      Xstrncpy(workword, workword_of(Gkword), sizeof(workword));
+      if (strncmp(workword, rules[i].pfx, plen) == 0
+          && workword[plen - 1] == rules[i].changing)
+      {
+        char follow = workword[plen];
+        char new_char = 0;
+        if (follow && strchr(rules[i].total_asm, follow))
+          new_char = follow;                 /* total assimilation */
+        else if (follow && rules[i].partial_to
+                 && strchr(rules[i].partial_asm, follow))
+          new_char = rules[i].partial_to;    /* partial assimilation */
+        if (new_char)
+        {
+          workword[plen - 1] = new_char;
+          set_workword(Gkword, workword);
+          rval += checkstring3(Gkword);
+          set_workword(Gkword, saveword);
+        }
+      }
+    }
+    /* Special case: ad + s + [consonant] → a + s + [consonant],
+       e.g. adspicio → aspicio, adscribo → ascribo. Distinct from
+       ad + s + [vowel] → ass- (handled in rules[] above).*/
+    {
+      size_t wlen = strlen(workword_of(Gkword));
+      if (wlen >= 4
+          && strncmp(workword_of(Gkword), "ads", 3) == 0
+          && !strchr("aeiouAEIOU", workword_of(Gkword)[3]))
+      {
+        workword[0] = 'a';
+        workword[1] = 's';
+        Xstrncpy(workword + 2, workword_of(Gkword) + 3, sizeof(workword) - 2);
+        set_workword(Gkword, workword);
+        rval += checkstring3(Gkword);
+        set_workword(Gkword, saveword);
       }
     }
   }
