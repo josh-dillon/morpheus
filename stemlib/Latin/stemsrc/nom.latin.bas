@@ -31,6 +31,7 @@
 
 :le:praedives
 :aj:praedi_v	es_itis masc fem neut
+:wd:praedi_vi^ti_s	es_itis masc fem acc pl
 
 :le:torquis
 :no:torqu	is_is masc fem

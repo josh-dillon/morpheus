@@ -894,6 +894,7 @@ utr@ille	irreg_adj2
 :wd:vetus	irreg_adj3 masc fem neut nom voc sg
 :wd:vetus	irreg_adj3 neut acc sg
 veter@decl3	irreg_adj3 masc fem neut
+veter@decl3_i	irreg_adj3 masc fem acc pl
 :aj:vetust	or_us_comp irreg_comp
 :aj:vet	er_ris_re superl
 

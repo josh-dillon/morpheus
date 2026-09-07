@@ -61592,6 +61592,7 @@ di_-verse		<orth>di_vorse</orth>
 di_ves		
 :le:dives
 :aj:di_v	es_itis
+:wd:di_vi^ti_s	es_itis masc fem acc pl
 :aj:di_	s_tis_adj orth
 :aj:di_t	ior_ius_comp
 :aj:di_vi^t	ior_ius_comp
@@ -74477,9 +74478,6 @@ fe_-li_ne^us
 fe_lix#1		
 :le:felix#1
 :aj:fe_l	ix_adj
-:wd:fe_li_ci_	ix_adj abl sg masc fem neut
-:wd:fe_li_cia	ix_adj neut nom voc acc pl
-:wd:fe_li_cium	ix_adj gen pl
 
 
 Felix		<orth>fe_li_ci^ter</orth>
@@ -98778,9 +98776,6 @@ in-fe_li_ci^tas
 in-fe_lix		
 :le:infelix
 :aj:in-fe_l	ix_adj
-:wd:in-fe_li_ci_	ix_adj abl sg masc fem neut
-:wd:in-fe_li_cia	ix_adj neut nom voc acc pl
-:wd:in-fe_li_cium	ix_adj gen pl
 
 	<itype>Hence</itype>	<pos>adv.</pos>
 infe_li_ci^ter	
@@ -198354,6 +198349,7 @@ su^per-spersus
 su^perste^s		<itype>i^tis</itype>	<pos>adj.</pos>
 :le:superstes
 :aj:superst	es_itis
+:wd:su^persti^ti_s	es_itis masc fem acc pl
 
 su^persti^ti^o		
 :le:superstitio
