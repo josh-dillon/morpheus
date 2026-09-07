@@ -1,5 +1,7 @@
 o_x	masc fem neut nom/voc sg
 o_x	neut acc sg
-o_c@decl3
+o_c@decl3_i
+o_ci_	masc fem neut abl sg
+o_ce	masc fem neut abl sg
 o_c@comp_adj	comp
 o_c@superl_adj superl
