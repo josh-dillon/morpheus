@@ -74,9 +74,6 @@
 :vs:ab-nu_	pp4
 :vs:ab-nui	pp4
 
-:le:adtrecto
-:de:ad-trect	are_vb
-
 :le:adoleo#1
 :vs:ad-ol	conj2
 :vs:ad-olu	perfstem
