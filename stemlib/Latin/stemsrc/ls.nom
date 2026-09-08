@@ -41689,7 +41689,13 @@ collu_ti^o		<orth type=alt>conl-</orth>
 
 collu^vi^a_ris		<itype>porcus dicitur, qui cibo permixto et colluvie nutritur</itype>
 collu^vi^es		<orth type=alt>conl-</orth>	<itype>e_i</itype>
+:le:colluvies
+:no:collu^vi^	es_eLi fem
+
 collu^vi^o		<orth type=alt>conl-</orth>	<itype>o_nis</itype>
+:le:colluvio
+:no:collu^vi^	o_oLnis fem
+
 collu^vi^-es		<itype>em, e_</itype>
 collu^vi^um		<gen>f.</gen>
 colly^bista		
