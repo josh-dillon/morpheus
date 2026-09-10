@@ -39739,7 +39739,7 @@ cli_ba^nus
 
 cli_di^on		<orth>-um</orth>	
 :le:clidion
-:no:cli_d	ios_i masc
+:no:cli_d	ios_i neut
 
 
 Cli_du_chus		
@@ -53586,6 +53586,7 @@ CypriusVi_cus#1
 Cy_^prus#1		<orth type=alt>-o^s</orth>	
 :le:Cyprus#1
 :no:Cy_^pr	us_i fem
+:no:Cy_^pr	os_i fem
 
 
 Cy_^pri^us		
@@ -189023,6 +189024,7 @@ Siphae
 Siphnus		<orth type=alt>-os</orth>	
 :le:Siphnus
 :no:Siphn	us_i fem
+:no:Siphn	os_i fem
 
 
 Siphni^us		

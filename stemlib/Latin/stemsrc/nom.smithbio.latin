@@ -1056,7 +1056,7 @@
 :no:Anaxilid es_is fem pers_name
 
 :le:Anaximenes
-:no:Anaximen es_is fem pers_name
+:no:Anaximen es_is masc pers_name
 
 :le:Anaxippus
 :no:Anaxipp us_i masc pers_name
@@ -1126,7 +1126,7 @@
 #noanalysis:Andronidas
 
 :le:Androsthenes
-:no:Androsthen es_is fem pers_name
+:no:Androsthen es_is masc pers_name
 
 #noanalysis:Androtion
 
@@ -1718,7 +1718,7 @@
 #noanalysis:Aristomedon
 
 :le:Aristomenes
-:no:Aristomen es_is fem pers_name
+:no:Aristomen es_is masc pers_name
 
 #noanalysis:Aristonidas
 
