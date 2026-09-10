@@ -808,6 +808,7 @@
 :vs:al-li^t pp4
 :le:alloquor
 :vs:al-lo^qu	conj3 dep
+:vs:al-lo^c	conj3 dep pres ind 3rd pl
 :vs:al-lo^cu_t pp4
 :le:allubesco
 :vs:al-lu^be_sc	conj3
@@ -1268,8 +1269,8 @@
 :vs:as-sens pp4
 :le:assequor
 :vs:as-se^qu	conj3 dep
-:vs:ad-se^qu	conj3 dep orth
-:vs:ad-se^cu_t pp4
+:vs:as-se^c	conj3 dep pres ind 3rd pl
+:vs:as-se^cu_t pp4
 :le:assero#1
 :vs:as-se^r	conj3
 :vs:ad-se^r	conj3 orth
@@ -2503,6 +2504,7 @@
 :de:col-lo^cu^ple_t	are_vb
 :le:colloquor
 :vs:col-lo^qu	conj3 dep
+:vs:col-lo^c	conj3 dep pres ind 3rd pl
 :vs:col-lo^cu_t pp4
 :le:colluceo
 :vs:col-lu_c	conj2
@@ -3377,6 +3379,8 @@
 :vs:con-sens pp4
 :le:consequor
 :vs:con-se^qu	conj3 dep
+:vs:con-se^c	conj3 dep pres ind 3rd pl
+:vs:con-se^cu_t pp4
 :le:consermonor
 :de:con-sermo_n	are_vb dep
 :le:consero#1
@@ -5767,6 +5771,8 @@
 :de:e_long	are_vb
 :le:eloquor
 :vs:e_-lo^qu	conj3 dep
+:vs:e_-lo^c	conj3 dep pres ind 3rd pl
+:vs:e_-lo^cu_t pp4
 :le:eluceo
 :vs:e_-lu_c	conj2
 :vs:e_-lu_x perfstem
@@ -6599,7 +6605,7 @@
 :de:exse^qui	are_vb
 :le:exsequor
 :vs:ex-se^qu	conj3 dep
-:vs:ex-e^qu	conj3
+:vs:ex-se^c	conj3 dep pres ind 3rd pl
 :vs:ex-se^cu_t pp4
 :le:exsero
 :vs:ex-ser	conj3
@@ -8481,7 +8487,7 @@
 :vs:in-se^nu perfstem
 :le:insequor
 :vs:in-se^qu	conj3 dep
-:vs:in-se^c	conj3
+:vs:in-se^c	conj3 dep pres ind 3rd pl
 :vs:in-se^cu_t pp4
 :le:insero#1
 :vs:in-se^r	conj3
@@ -8804,6 +8810,7 @@
 :de:inter-lo^c	are_vb
 :le:interloquor
 :vs:inter-lo^qu	conj3 dep
+:vs:inter-lo^c	conj3 dep pres ind 3rd pl
 :vs:inter-lo^cu_t pp4
 :le:interluceo
 :vs:inter-lu_c	conj2
@@ -10476,7 +10483,8 @@
 :de:ob-lo^c	are_vb
 :le:obloquor
 :vs:ob-lo^qu	conj3 dep
-:vs:ob-locu_t pp4
+:vs:ob-lo^c	conj3 dep pres ind 3rd pl
+:vs:ob-lo^cu_t pp4
 :le:obluctor
 :de:ob-luct	are_vb dep
 :le:obludo
@@ -10560,6 +10568,7 @@
 :de:ob-se^cund	are_vb
 :le:obsequor
 :vs:ob-se^qu	conj3 dep
+:vs:ob-se^c	conj3 dep pres ind 3rd pl
 :vs:ob-se^cu_t pp4
 :le:obsero#1
 :de:obse^r	are_vb
@@ -11840,7 +11849,8 @@
 :vs:per-senti_sc	conj3
 :le:persequor
 :vs:per-se^qu	conj3 dep
-:vs:per-se^qucu_t pp4
+:vs:per-se^c	conj3 dep pres ind 3rd pl
+:vs:per-se^cu_t pp4
 :le:persero#1
 :vs:per-se^r	conj3
 :vs:per-se_v perfstem
@@ -12631,6 +12641,7 @@
 :de:praelong	are_vb
 :le:praeloquor
 :vs:prae-lo^qu	conj3 dep
+:vs:prae-lo^c	conj3 dep pres ind 3rd pl
 :vs:prae-lo^cu_t pp4
 :le:praeluceo
 :vs:prae-lu_c	conj2
@@ -13249,6 +13260,7 @@
 :de:prolong	are_vb
 :le:proloquor
 :vs:pro_-lo^qu	conj3 dep
+:vs:pro_-lo^c	conj3 dep pres ind 3rd pl
 :vs:pro_-lo^cu_t pp4
 :le:proluceo
 :vs:pro_-lu_c	conj2
@@ -13401,6 +13413,7 @@
 :vs:pro_-sens perfstem
 :le:prosequor
 :vs:pro_-se^qu	conj3 dep
+:vs:pro_-se^c	conj3 dep pres ind 3rd pl
 :vs:pro_-se^cu_t pp4
 :le:prosero#1
 :vs:pro_-se^r	conj3
@@ -14464,7 +14477,8 @@
 :de:re^-se_mi^n	are_vb
 :le:resequor
 :vs:re^-se^qu	conj3 dep
-:vs:re^-se^se^cu_t pp4
+:vs:re^-se^c	conj3 dep pres ind 3rd pl
+:vs:re^-se^cu_t pp4
 :le:resero#1
 :vs:re^-se^r	conj3
 :vs:re^-se_v perfstem
@@ -15109,10 +15123,9 @@
 :de:se^questr	are_vb
 :le:sequor
 :vs:se^qu	conj3 dep
-:vs:se^c	conj3 dep
+:vs:se^c	conj3 dep pres ind 3rd pl
 :vs:se^cu_t pp4
 :vs:se^quu_t pp4
-:vs:se^se^cu_t pp4
 :le:exequor
 :vs:exe^qu	conj3 dep
 :vs:exe^c	conj3 dep
@@ -15674,6 +15687,7 @@
 :vs:sub-sens perfstem
 :le:subsequor
 :vs:sub-se^qu	conj3 dep
+:vs:sub-se^c	conj3 dep pres ind 3rd pl
 :vs:sub-se^cu_t pp4
 :le:subsero#1
 :vs:sub-se^r	conj3
