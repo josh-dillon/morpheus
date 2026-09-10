@@ -609,8 +609,90 @@ int checkstring3(gk_word *Gkword)
   }
 
   /*
-   * 12/8/97 
+   * 12/8/97
    */
+
+/* Latin capital gate rescue for us_i Greek proper name -on accusatives.
+ *
+ * Fires on input matching ^[A-Z][a-z]*on$ when no analysis yet exists.
+ * Queries the lexicon by rewriting the -on to -us (the nom form of the
+ * underlying us_i masc lemma). Qualifying probe analyses (stemtype us_i,
+ * gender masc) are compacted in place with their case patched to acc
+ * and their surface form restored to the user's original input.
+ *
+ * Must run before the -n stripping block, whose (! totanal_of) guard
+ * then naturally suppresses the spurious -o dat/abl parse that would
+ * otherwise fire on e.g. Aeolon -> Aeolo. */
+  if (cur_lang() == LATIN && !totanal_of(Gkword))
+  {
+    int clen = (int)strlen(workword_of(Gkword));
+    if (clen >= 4
+        && isupper(workword_of(Gkword)[0])
+        && workword_of(Gkword)[clen - 2] == 'o'
+        && workword_of(Gkword)[clen - 1] == 'n')
+    {
+      int middle_lower = 1;
+      int ci;
+      for (ci = 1; ci < clen - 2; ci++) {
+        if (!islower(workword_of(Gkword)[ci])) {
+          middle_lower = 0;
+          break;
+        }
+      }
+      if (middle_lower)
+      {
+        int saved_total = totanal_of(Gkword);
+        char probe_word[MAXWORDSIZE];
+        int write_idx, read_idx;
+
+        Xstrncpy(probe_word, workword_of(Gkword), sizeof(probe_word));
+        probe_word[clen - 2] = 'u';
+        probe_word[clen - 1] = 's';
+        probe_word[clen]     = '\0';
+
+        set_workword(Gkword, probe_word);
+        checknom(Gkword);
+
+        /* Compact qualifying probe analyses in place at [saved_total, ...),
+           patching each to acc + poetic + original surface form. Workword's
+           trailing -us is swapped back to -on so it differs from rawword,
+           which triggers the print machinery to emit the surface prefix
+           (as for stephanon,stephanos). */
+        write_idx = saved_total;
+        for (read_idx = saved_total; read_idx < totanal_of(Gkword); read_idx++) {
+          gk_analysis *src = analysis_of(Gkword) + read_idx;
+          int wwlen = (int)strlen(workword_of(src));
+          if (!strcmp("us_i", NameOfStemtype(stemtype_of(src)))
+              && (gender_of(forminfo_of(src)) & MASCULINE)
+              && wwlen >= 2
+              && workword_of(src)[wwlen - 2] == 'u'
+              && workword_of(src)[wwlen - 1] == 's') {
+            if (write_idx != read_idx) {
+              analysis_of(Gkword)[write_idx] = *src;
+            }
+            {
+              gk_analysis *dst = analysis_of(Gkword) + write_idx;
+              int dwlen = (int)strlen(workword_of(dst));
+              set_case(forminfo_of(dst), ACCUSATIVE);
+              set_number(forminfo_of(dst), SINGULAR);
+              set_gender(forminfo_of(dst), MASCULINE);
+              add_morphflag(morphflags_of(dst), POETIC);
+              workword_of(dst)[dwlen - 2] = 'o';
+              workword_of(dst)[dwlen - 1] = 'n';
+              set_rawword(dst, saveword);
+            }
+            write_idx++;
+          }
+        }
+        set_totanal(Gkword, write_idx);
+        set_workword(Gkword, saveword);
+
+        if (write_idx > saved_total) {
+          return(write_idx - saved_total);
+        }
+      }
+    }
+  }
 
 /* Latin prodelision:  this may be too simplistic */
   if (cur_lang() == LATIN)
