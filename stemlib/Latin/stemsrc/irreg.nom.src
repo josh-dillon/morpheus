@@ -433,13 +433,28 @@ ali@quis indef
 :wd:quibusque   indef masc/fem/neut abl pl
 
 :le:qualiscumque
-:wd:qua_liscumque	indef masc fem nom sg
+:wd:qua_liscumque	indef masc fem nom voc sg
+:wd:qua_liscumque	indef masc fem neut gen sg
+:wd:qua_liscumque	indef masc fem acc pl
+:wd:qua_lecumque	indef neut nom voc acc sg
+:wd:qua_li_cumque	indef masc fem neut dat abl sg
 :wd:qua_lemcumque	indef masc fem acc sg
-:wd:qua_liacumque	indef neut nom acc pl
-:wd:qua_liscunque	indef masc fem nom sg
+:wd:qua_lencumque	indef masc fem acc sg
+:wd:qua_le_scumque	indef masc fem nom voc acc pl
+:wd:qua_liacumque	indef neut nom voc acc pl
+:wd:qua_liumcumque	indef masc fem neut gen pl
+:wd:qua_libuscumque	indef masc fem neut dat abl pl
+:wd:qua_liscunque	indef masc fem nom voc sg
+:wd:qua_liscunque	indef masc fem neut gen sg
+:wd:qua_liscunque	indef masc fem acc pl
+:wd:qua_lecunque	indef neut nom voc acc sg
+:wd:qua_li_cunque	indef masc fem neut dat abl sg
 :wd:qua_lemcunque	indef masc fem acc sg
 :wd:qua_lencunque	indef masc fem acc sg
-:wd:qua_liacunque	indef neut nom acc pl
+:wd:qua_le_scunque	indef masc fem nom voc acc pl
+:wd:qua_liacunque	indef neut nom voc acc pl
+:wd:qua_liumcunque	indef masc fem neut gen pl
+:wd:qua_libuscunque	indef masc fem neut dat abl pl
 
 :le:quicumque
 :wd:qui_cumque indef masc nom sg
