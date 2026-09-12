@@ -4134,7 +4134,7 @@ aegi^thus
 
 Aegi^um		<orth>Aegi^on</orth>	
 :le:Aegium
-:no:Aeg	ius_i neut
+:no:Aeg	ios_i neut
 
 
 Aegi^enses		
@@ -26280,7 +26280,7 @@ Bu_beti^us
 
 bu_bo_ni^um		<orth type=alt>-on</orth>	
 :le:bubonium
-:no:bu_bo_n	ius_i neut
+:no:bu_bo_n	ios_i neut
 
 
 bubse^qua		<orth>bobse^qua</orth>	<orth>bu_-se^qua</orth>	
@@ -27055,7 +27055,7 @@ By_za_ci^us
 
 By_zanti^um		
 :le:Byzantium
-:no:By_zant	ius_i neut
+:no:By_zant	ios_i neut
 
 
 By_zanti^us		
@@ -37468,8 +37468,8 @@ Ci^ce^ro_ni^a_nus
 Ci^ce^ro^mastix		<itype>i_gis</itype>	<gen>m.</gen>
 ci^cho^ri^um		<orth>-on</orth>	<orth>ci^cho^re_um</orth>	
 :le:cichorium
-:no:ci^cho^r	ius_i neut
-:no:c	ius_i neut orth
+:no:ci^cho^r	ios_i neut
+:no:ci^cho^re_	us_i neut orth
 
 
 
@@ -54095,7 +54095,7 @@ daemo^ni^cus
 
 daemo^ni^um		
 :le:daemonium
-:no:daemo^n	ius_i neut
+:no:daemo^n	ios_i neut
 
 
 Daesi^ti^a_tae		
@@ -54224,6 +54224,10 @@ Da^ma^sippus
 
 
 damaso_ni^on		<itype>ii</itype>
+:le:damasonion
+:no:damaso_n	ios_i neut
+
+
 da_mium		
 :le:damium
 :no:da_m	ius_i neut
@@ -62694,7 +62698,7 @@ dra^conti^on
 dra^conti^osvi_tis	
 dra^conti^um		
 :le:dracontium
-:no:dra^cont	ius_i neut
+:no:dra^cont	ios_i neut
 
 
 dra^cuncu^lus		
@@ -67616,12 +67620,12 @@ e^pi^ta^phista
 
 e^pi^ta^phi^um		
 :le:epitaphium
-:no:e^pi^ta^ph	ius_i neut
+:no:e^pi^ta^ph	ios_i neut
 
 
-epitaphius		
+e^pi^ta^phi^us		
 :le:epitaphius
-:no:epitaphi	us_i masc
+:no:e^pi^ta^phi	os_i masc
 
 
 e^pi^tha^la^mi^um		
@@ -85881,7 +85885,7 @@ he_li^osco^pi^on
 he_li^osco^pi^os		<itype>ii</itype>	<gen>m.</gen>
 he_li^o^tro^pi^um		
 :le:heliotropium
-:no:he_li^o^tro^p	ius_i neut
+:no:he_li^o^tro^p	ios_i neut
 
 
 he_li^o^tro^pi^os		<orth type=alt>gemma</orth>
@@ -86170,7 +86174,7 @@ he_mi^the^us
 
 he_mi^to^ni^um		
 :le:hemitonium
-:no:he_mi^to^n	ius_i neut
+:no:he_mi^to^n	ios_i neut
 
 
 he_mi^tri_gly^phus		
@@ -87410,7 +87414,7 @@ hi^e^ra_ci_tis
 
 hi^e^ra_ci^um		
 :le:hieracium
-:no:hi^e^ra_c	ius_i neut
+:no:hi^e^ra_c	ios_i neut
 
 
 Hi^e^ra_po^lis		
@@ -90238,7 +90242,7 @@ hy^po^the^ti^cus
 
 hy^po^tra^che_li^um		
 :le:hypotrachelium
-:no:hy^po^tra^che_l	ius_i neut
+:no:hy^po^tra^che_l	ios_i neut
 
 
 hy^potrimma		
@@ -91370,7 +91374,7 @@ I_li_thyia		<orth type=alt>quadrisyl.</orth>
 
 I_li^um#1		
 :le:Ilium#1
-:no:I_l	ius_i neut
+:no:I_l	ios_i neut
 :no:I_li^	us_i masc pl orth
 
 
@@ -121282,7 +121286,7 @@ me_co_ni_tes
 
 me_co_ni^um		
 :le:meconium
-:no:me_co_n	ius_i neut
+:no:me_co_n	ios_i neut
 
 
 me_cum	
@@ -122094,7 +122098,7 @@ me^lanthe^mum
 
 me^lanthi^um		<orth type=alt>-on</orth>	
 :le:melanthium
-:no:me^lanth	ius_i neut
+:no:me^lanth	ios_i neut
 
 
 me^lanthum	
@@ -130536,7 +130540,7 @@ myrme_ci_tis
 
 myrme_ci^um		<orth type=alt>myrme_ci^on</orth>	
 :le:myrmecium
-:no:myrme_c	ius_i neut
+:no:myrme_c	ios_i neut
 
 
 Myrmi^do^ne_		
@@ -144991,7 +144995,7 @@ pancra^ti^ce_
 
 pancra^ti^um		<orth type=alt>-tion</orth>	
 :le:pancratium
-:no:pancra^t	ius_i neut
+:no:pancra^t	ios_i neut
 
 
 pancra^ti^us		
@@ -146432,7 +146436,7 @@ pa_ri^tor
 
 Pa^ri^um		<orth>-on</orth>	
 :le:Parium
-:no:Pa^r	ius_i neut
+:no:Pa^r	ios_i neut
 
 
 Pa^ri^a_nus		
@@ -154137,7 +154141,7 @@ pha^langi_tes
 
 pha^langi^um		<orth>-on</orth>	
 :le:phalangium
-:no:pha^lang	ius_i neut
+:no:pha^lang	ios_i neut
 
 
 pha^langi^us		
@@ -159512,7 +159516,7 @@ Po^ly^plu_si^us
 
 po^ly^po^di^um		<orth type=alt>-i^on</orth>	
 :le:polypodium
-:no:po^ly^po^d	ius_i neut
+:no:po^ly^po^d	ios_i neut
 
 
 po^ly^po_sus		
@@ -176727,7 +176731,7 @@ rhythmos		<orth>-us</orth>
 
 rhy^ti^um		
 :le:rhytium
-:no:rhy^t	ius_i neut
+:no:rhy^t	ios_i neut
 
 
 ri_ca		
@@ -188356,7 +188360,7 @@ silly^bus
 
 silphi^um		
 :le:silphium
-:no:silph	ius_i neut
+:no:silph	ios_i neut
 
 
 Silpia		
@@ -191994,7 +191998,7 @@ sple_ni_tes
 
 sple_ni^um		
 :le:splenium
-:no:sple_n	ius_i neut
+:no:sple_n	ios_i neut
 
 
 spo^di^um		
@@ -197887,7 +197891,7 @@ Sunami_tis
 
 Su_ni^um		<orth>Su_ni^on</orth>	
 :le:Sunium
-:no:Su_n	ius_i neut
+:no:Su_n	ios_i neut
 
 
 Sunuci		
@@ -202307,6 +202311,7 @@ te^lo_na_ri^us
 te^lo_ni^um		<orth type=alt>-ne^um</orth>	
 :le:telonium
 :no:te^lo_n	ius_i neut
+:no:telo_ne_	us_i neut orth
 
 
 te_lum		
@@ -209448,7 +209453,7 @@ Tri^po^li^ti^cus
 
 tri^po^li^um		
 :le:tripolium
-:no:tri^po^l	ius_i neut
+:no:tri^po^l	ios_i neut
 
 
 tri^-portentum		
