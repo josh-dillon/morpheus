@@ -36607,12 +36607,19 @@ Chi_o^ni^des
 Chi_^os		<orth>Chi_us</orth>	<itype>ii</itype>	<gen>f.</gen>
 Chi_us		
 :le:Chius
-:aj:Chi_	us_a_um
+:aj:Chi_^	us_a_um
+
+
+Chi_^os		<orth>Chi_us</orth>	<itype>ii</itype>	<gen>f.</gen>
+Chi_us		
+:le:Chius
+:no:Chi_^	us_i fem
+:no:Chi_^	os_i fem nom sg
 
 
 Chii		
 :le:Chii
-:no:Chi_	us_i masc pl
+:no:Chi_^	us_i masc pl
 
 
 chi_ra_^gra		
@@ -171136,7 +171143,24 @@ qua_lis-cumque		<orth>-cunque</orth>	<pos>adj.</pos>	<itype>Hence</itype>
 
 
 qua_li^tercumque_		<orth>-cunque_</orth>
+:le:qualitercumque
+:wd:qua_li^tercumque		adverb
+:wd:qua_li^tercunque		adverb
+
+
 qua_lis-li^bet	
+:le:qualislibet
+:wd:qua_lisli^bet	is_e masc fem nom voc sg
+:wd:qua_lisli^bet	is_e masc fem neut gen sg
+:wd:qua_li_sli^bet	is_e masc fem acc pl
+:wd:qua_leli^bet	is_e neut nom voc acc sg
+:wd:qua_li_li^bet	is_e masc fem neut dat abl sg
+:wd:qua_lemli^bet	is_e masc fem acc sg
+:wd:qua_le_sli^bet	is_e masc fem nom voc acc pl
+:wd:qua_liali^bet	is_e neut nom voc acc pl
+:wd:qua_liumli^bet	is_e masc fem neut gen pl
+:wd:qua_libusli^bet	is_e masc fem neut dat abl pl
+
 qua_lis-nam	
 qua_lis-qua_lis		<itype>qua_lequa_le</itype>	<pos>adj.</pos>
 qua_li^tas		
@@ -209696,7 +209720,7 @@ tri^to^mus
 
 Tri_to_n		<itype>o_nis or o_no^s</itype>	<gen>m.</gen>
 :le:Triton
-:no:Tri_to_n 0_is masc pers_name
+:no:Tri_t oLn_onis masc pers_name
 
 Tri_to_ni^us		
 :le:Tritonius
@@ -209706,11 +209730,6 @@ Tri_to_ni^us
 Tri_to_-ni^a		
 :le:Tritonia
 :no:Tri_to_-ni^	a_ae fem
-
-
-Tri_to_ni^da		
-:le:Tritonida
-:no:Tri_to_ni^d	a_ae fem
 
 
 Tri_to_ni^a^cus		

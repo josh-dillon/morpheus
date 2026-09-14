@@ -13299,7 +13299,8 @@
 #noanalysis:Triton
 
 :le:Tritonis
-:no:Triton is_is fem pers_name
+:no:Triton is_idos fem pers_name
+:no: Tritonid a_ae fem acc sg
 
 #noanalysis:Troezen
 
