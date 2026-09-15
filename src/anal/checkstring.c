@@ -616,8 +616,9 @@ int checkstring3(gk_word *Gkword)
  *
  * Fires on input matching ^[A-Z][a-z]*on$ when no analysis yet exists.
  * Queries the lexicon by rewriting the -on to -us (the nom form of the
- * underlying us_i masc lemma). Qualifying probe analyses (stemtype us_i,
- * gender masc) are compacted in place with their case patched to acc
+ * underlying us_i masc or fem lemma). Qualifying probe analyses (stemtype
+ * us_i, gender masc or fem) are compacted in place with their case patched
+ * to acc
  * and their surface form restored to the user's original input.
  *
  * Must run before the -n stripping block, whose (! totanal_of) guard
@@ -663,7 +664,7 @@ int checkstring3(gk_word *Gkword)
           gk_analysis *src = analysis_of(Gkword) + read_idx;
           int wwlen = (int)strlen(workword_of(src));
           if (!strcmp("us_i", NameOfStemtype(stemtype_of(src)))
-              && (gender_of(forminfo_of(src)) & MASCULINE)
+              && (gender_of(forminfo_of(src)) & (MASCULINE | FEMININE))
               && wwlen >= 2
               && workword_of(src)[wwlen - 2] == 'u'
               && workword_of(src)[wwlen - 1] == 's') {
@@ -675,7 +676,7 @@ int checkstring3(gk_word *Gkword)
               int dwlen = (int)strlen(workword_of(dst));
               set_case(forminfo_of(dst), ACCUSATIVE);
               set_number(forminfo_of(dst), SINGULAR);
-              set_gender(forminfo_of(dst), MASCULINE);
+              set_gender(forminfo_of(dst), gender_of(forminfo_of(src)));
               add_morphflag(morphflags_of(dst), POETIC);
               workword_of(dst)[dwlen - 2] = 'o';
               workword_of(dst)[dwlen - 1] = 'n';
