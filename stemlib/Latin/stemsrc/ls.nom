@@ -1989,6 +1989,7 @@ A^conti_zo^me^nos
 a^co^pos		<orth type=alt>-us</orth>	
 :le:acopos
 :no:a^co^p	os_i masc
+:no:a^co^p	us_i masc nom sg
 
 
 a^co_pon		<orth type=alt>-um</orth>	
@@ -13777,6 +13778,7 @@ A_^pru_sa
 Apso^ro^s		<orth type=alt>-us</orth>	
 :le:Apsoros
 :no:Apso^r	os_i fem
+:no:Apso^r	us_i fem nom sg
 
 
 Apsus		
@@ -17285,6 +17287,7 @@ A_so_pis
 A_so_pus		<orth type=alt>-os</orth>	
 :le:Asopus
 :no:A_so_p	us_i masc
+:no:A_so_p	os_i masc nom sg
 
 
 a^so_ti_a		
@@ -18679,6 +18682,7 @@ Athe_ni^o
 a^the^o^s		<orth type=alt>-us</orth>	
 :le:atheos
 :no:a^the^	os_i masc
+:no:a^the^	us_i masc nom sg
 
 
 a^the_ra		
@@ -32149,6 +32153,7 @@ ca^ry^o_tis
 Ca^rysto^s		<orth>-us</orth>	
 :le:Carystos
 :no:Ca^ryst	os_i fem
+:no:Ca^ryst	us_i fem nom sg
 
 
 Ca^ryste_us		
@@ -33911,6 +33916,7 @@ ca^vum aedi^um		<orth>ca^vae-di^um</orth>
 Ca^ystro^s		<orth>-us</orth>	
 :le:Caystros
 :no:Ca^ystr	os_i masc
+:no:Ca^ystr	us_i masc nom sg
 
 
 Ca^y-stri^us		
@@ -50014,6 +50020,7 @@ cra^cens		<itype>entis</itype>
 Cra^go^s		<orth>-us</orth>	
 :le:Cragos
 :no:Cra^g	os_i masc
+:no:Cra^g	us_i masc nom sg
 
 
 crambe_		
@@ -52904,6 +52911,7 @@ cy^a^mi^as
 cy^a^mo^s		<orth>-us</orth>	
 :le:cyamos
 :no:cy^a^m	os_i masc
+:no:cy^a^m	us_i masc nom sg
 
 
 Cy^a^ne_		
@@ -52934,6 +52942,7 @@ Cy_a^-ne^us
 cy^a^no^s		<orth>-us</orth>	
 :le:cyanos
 :no:cy^a^n	os_i masc
+:no:cy^a^n	us_i masc nom sg
 
 
 cy^a^thus		
@@ -58845,6 +58854,7 @@ di^a^lecti^ca
 di^a^lectos		<orth>-us</orth>	
 :le:dialectos
 :no:di^a^lect	os_i fem
+:no:di^a^lect	us_i fem nom sg
 
 
 di^a^le^pi^dos	
@@ -60019,6 +60029,7 @@ Di_narchus
 Dindy^mus		<orth type=alt>-os</orth>	
 :le:Dindymus
 :no:Dindy^m	us_i masc
+:no:Dindy^m	os_i masc nom sg
 
 
 Dindy^-mon		
@@ -60189,6 +60200,7 @@ Di^o^ny_so^po^li_tae
 Di^o^ny_sus		<orth>-os</orth>	
 :le:Dionysus
 :no:Di^o^ny_s	us_i masc
+:no:Di^o^ny_s	os_i masc nom sg
 :aj:Di^o^ny_s	ius_ia_ium orth
 
 
@@ -62616,6 +62628,7 @@ Do^ry^las
 Do^ry^pho^rus		<orth type=alt>-os</orth>	
 :le:Doryphorus
 :no:Do^ry^pho^r	us_i masc
+:no:Do^ry^pho^r	os_i masc nom sg
 
 
 do_s		
@@ -64179,6 +64192,7 @@ e^chi_nus#1
 E^chi_nus#2		<orth>-os</orth>	
 :le:Echinus#2
 :no:E^chi_n	us_i fem
+:no:E^chi_n	os_i fem nom sg
 
 
 e^chi^on#1		
@@ -67220,6 +67234,7 @@ e^pi^cy_^clus
 E^pi^damnus		<orth type=alt>-os</orth>	
 :le:Epidamnus
 :no:E^pi^damn	us_i fem
+:no:E^pi^damn	os_i fem nom sg
 
 
 E^pi^damni^us		
@@ -67494,6 +67509,7 @@ e^pi^re_di^um
 E_pi_rus		<orth>-os</orth>	
 :le:Epirus
 :no:E_pi_r	us_i fem
+:no:E_pi_r	os_i fem nom sg
 
 
 E_pi_ro_te_s		
@@ -67720,6 +67736,7 @@ e^pi_^tro^pe_
 e^pi_^tro^pus		<orth>-os</orth>	
 :le:epitropus
 :no:e^pi_^tro^p	us_i masc
+:no:e^pi_^tro^p	os_i masc nom sg
 
 
 e^pi^ty_rum		
@@ -69528,6 +69545,7 @@ Euri_pi^de_us
 euri_pus		<orth type=alt>-os</orth>	
 :le:euripus
 :no:euri_p	us_i masc
+:no:euri_p	os_i masc nom sg
 
 
 Euri_pus		
@@ -81586,6 +81604,7 @@ Ge^raesti^cusportus
 Ge^raestus		<orth>-os</orth>	
 :le:Geraestus
 :no:Ge^raest	us_i fem
+:no:Ge^raest	os_i fem nom sg
 
 
 ge^ra^ni^on		<orth>-um</orth>	
@@ -87052,6 +87071,7 @@ hespe^ru_go
 Hespe^rus		<orth>-os</orth>	
 :le:Hesperus
 :no:Hespe^r	us_i masc
+:no:Hespe^r	os_i masc nom sg
 
 
 Hespe^ri^us		
@@ -87772,6 +87792,7 @@ hippo^ca^me_lus
 hippo^campus		<orth>-os</orth>	
 :le:hippocampus
 :no:hippo^camp	us_i masc
+:no:hippo^camp	os_i masc nom sg
 
 
 hippo^centaurus		
@@ -89360,6 +89381,7 @@ hy^a^cinthi_zontes
 Hy^a^cinthus		<orth>-os</orth>	
 :le:Hyacinthus
 :no:Hy^a^cinth	us_i masc
+:no:Hy^a^cinth	os_i masc nom sg
 
 
 Hy^a^cinthi^a		
@@ -89370,6 +89392,7 @@ Hy^a^cinthi^a
 hy^a^cinthus		<orth>-os</orth>	
 :le:hyacinthus
 :no:hy^a^cinth	us_i masc fem
+:no:hy^a^cinth	os_i masc fem nom sg
 
 
 Hy^a^des		
@@ -89676,6 +89699,7 @@ hydro^se^li_num
 hydrus#1		<orth>-os</orth>	
 :le:hydrus#1
 :no:hydr	us_i masc
+:no:hydr	os_i masc nom sg
 
 
 Hydru_s#2		
@@ -89800,6 +89824,7 @@ Hymenaeus		<orth type=alt>-os</orth>	<orth>Hymenei+-us</orth>
 Hy^mettus		<orth>-os</orth>	
 :le:Hymettus
 :no:Hy^mett	us_i masc
+:no:Hy^mett	os_i masc nom sg
 
 
 Hy^metti^us		
@@ -90407,6 +90432,7 @@ I^aera
 I^a_ly^sus-		<orth>-os</orth>	
 :le:Ialysus
 :no:I^a_ly^s	us_i masc
+:no:I^a_ly^s	os_i masc nom sg
 
 
 I^a_ly^si^us		
@@ -105671,6 +105697,7 @@ Isse_
 Issus#2		<orth>-os</orth>	
 :le:Issus#2
 :no:Iss	us_i fem
+:no:Iss	os_i fem nom sg
 
 
 Issi^cus		
@@ -105697,6 +105724,7 @@ iste		<itype>a, ud</itype>
 Isthmus		<orth>-os</orth>	
 :le:Isthmus
 :no:Isthm	us_i masc
+:no:Isthm	os_i masc nom sg
 
 
 Isthmi^us		
@@ -108737,6 +108765,7 @@ Lampsa^cum
 Lampsa^-cus		<orth type=alt>-os</orth>	
 :le:Lampsacus
 :no:Lampsa^-c	us_i fem
+:no:Lampsa^-c	os_i fem nom sg
 
 
 Lampsa^ce_nus		
@@ -110696,6 +110725,7 @@ le^bes
 Le^bynthos		<orth>Le^bynthus, Le^bin-thos</orth>	<orth>-us</orth>	
 :le:Lebynthos
 :no:Le^bynth	os_i fem
+:no:Le^bynth	us_i fem nom sg
 
 
 Le^chaeum		
@@ -111675,6 +111705,7 @@ Lesbi^a
 Lesbos		<orth type=alt>-us</orth>	
 :le:Lesbos
 :no:Lesb	os_i fem
+:no:Lesb	us_i fem nom sg
 
 
 Lesbi^a^cus		
@@ -113526,6 +113557,7 @@ linctus#2
 Lindus		<orth type=alt>-os</orth>	
 :le:Lindus
 :no:Lind	us_i fem
+:no:Lind	os_i fem nom sg
 
 
 Lindi^us		
@@ -113602,6 +113634,7 @@ Lin-go^nus
 Lingos		<orth type=alt>-us</orth>	
 :le:Lingos
 :no:Ling	os_i masc
+:no:Ling	us_i masc nom sg
 
 
 lingua		
@@ -113760,6 +113793,7 @@ li_num
 Li^nus		<orth type=alt>-os</orth>	
 :le:Linus
 :no:Li^n	us_i masc
+:no:Li^n	os_i masc nom sg
 
 
 li_ny^phus		<orth type=alt>li_ni^f-</orth>	<itype>i</itype>
@@ -114049,6 +114083,7 @@ li^tha_ni^cus
 li^thargy^rus		<orth type=alt>-os</orth>	
 :le:lithargyrus
 :no:li^thargy^r	us_i masc
+:no:li^thargy^r	os_i masc nom sg
 
 
 li^thi_zon		
@@ -114654,6 +114689,7 @@ lo^go^gra^phus
 lo^gos		<orth type=alt>-us</orth>	
 :le:logos
 :no:lo^g	os_i masc
+:no:lo^g	us_i masc nom sg
 
 
 lo^li^a_ce^us		
@@ -116647,6 +116683,7 @@ Ly^co^therses
 Lyctus		<orth>-os</orth>	
 :le:Lyctus
 :no:Lyct	us_i fem
+:no:Lyct	os_i fem nom sg
 
 
 Lycti^us		
@@ -116677,6 +116714,7 @@ Ly^cur-ge_i
 Ly^cus		<orth>-os</orth>	
 :le:Lycus
 :no:Ly^c	us_i masc
+:no:Ly^c	os_i masc nom sg
 
 
 Ly_de_		
@@ -117623,6 +117661,7 @@ Maenas
 Maena^lus		<orth>-os</orth>	
 :le:Maenalus
 :no:Maena^l	us_i masc
+:no:Maena^l	os_i masc nom sg
 
 
 Mae-na^la		
@@ -119654,6 +119693,7 @@ ma^ra^thri_tes
 ma^ra^thrus		<orth>-os</orth>	
 :le:marathrus
 :no:ma^ra^thr	us_i masc
+:no:ma^ra^thr	os_i masc nom sg
 
 
 ma^ra^-thrum		
@@ -119971,6 +120011,7 @@ ma^risca
 ma^riscos		<orth>-us</orth>	
 :le:mariscos
 :no:ma^risc	os_i masc
+:no:ma^risc	us_i masc nom sg
 
 
 ma^ri_ta		
@@ -124592,6 +124633,7 @@ me^-tops		<itype>o_pis</itype>
 me^to_posco^pus		<orth>-os</orth>	
 :le:metoposcopus
 :no:me^to_posco^p	us_i masc
+:no:me^to_posco^p	os_i masc nom sg
 
 
 me^tops		<itype>o^pis, for metopion</itype>
@@ -130444,11 +130486,13 @@ mylasi^a		<orth>-e^a</orth>
 my^loecus		<orth>-os</orth>	
 :le:myloecus
 :no:my^loec	us_i masc
+:no:my^loec	os_i masc nom sg
 
 
 Myndus		<orth>-os</orth>	
 :le:Myndus
 :no:Mynd	us_i fem
+:no:Mynd	os_i fem nom sg
 
 
 Myndii		
@@ -130741,6 +130785,7 @@ My_s#2		<itype>My^os</itype>	<gen>m.</gen>
 Mysce^lo^s		<orth>-us</orth>	
 :le:Myscelos
 :no:Mysce^l	os_i masc
+:no:Mysce^l	us_i masc nom sg
 
 
 My_si^a		
@@ -131820,6 +131865,7 @@ nauma^chus
 Naupactus		<orth type=alt>-os</orth>	
 :le:Naupactus
 :no:Naupact	us_i fem
+:no:Naupact	os_i fem nom sg
 
 
 Nau-pactum		
@@ -140340,6 +140386,7 @@ o^ni_ros
 o^niscus		<orth>-os</orth>	
 :le:oniscus
 :no:o^nisc	us_i masc
+:no:o^nisc	os_i masc nom sg
 
 
 o^ni_tis		
@@ -140647,6 +140694,7 @@ O_phi^a^s
 o^phi^carde_los		<orth>-us</orth>	
 :le:ophicardelos
 :no:o^phi^carde_l	os_i masc
+:no:o^phi^carde_l	us_i masc nom sg
 
 
 O^phi^ci		
@@ -141780,6 +141828,7 @@ o^re^o^se^li_non		<orth type=alt>-um</orth>
 O^re^si_tro^phos		<orth type=alt>-us</orth>	
 :le:Oresitrophos
 :no:O^re^si_tro^ph	os_i fem
+:no:O^re^si_tro^ph	us_i fem nom sg
 
 
 O^restae		
@@ -143412,6 +143461,7 @@ Pa^chy_num
 Pa^chy_nus		<orth type=alt>-os</orth>	
 :le:Pachynus
 :no:Pa^chy_n	us_i masc fem
+:no:Pa^chy_n	os_i masc fem nom sg
 
 
 Pa_ci^di^a_nus		
@@ -147594,6 +147644,7 @@ pa^ti^enter
 Patmos		<orth>-us</orth>	
 :le:Patmos
 :no:Patm	os_i fem
+:no:Patm	us_i fem nom sg
 
 
 pa^tor		
@@ -149748,6 +149799,7 @@ Penta^-teuchum
 pentathlos		<orth>-us</orth>	
 :le:pentathlos
 :no:pentathl	os_i masc
+:no:pentathl	us_i masc nom sg
 
 
 pentathlum		
@@ -149858,6 +149910,7 @@ pe^nu
 Pe^pa^re_thus		<orth>-os</orth>	
 :le:Peparethus
 :no:Pe^pa^re_th	us_i fem
+:no:Pe^pa^re_th	os_i fem nom sg
 
 
 Pe^pa^re_thi^us		
@@ -151387,6 +151440,7 @@ pe^r-inte^ger
 Pe^rinthus		<orth type=alt>-os</orth>	
 :le:Perinthus
 :no:Pe^rinth	us_i fem
+:no:Pe^rinth	os_i fem nom sg
 
 
 Pe^rin-thi^us		
@@ -154471,6 +154525,7 @@ Pharsa_li^a
 Pha^rus		<orth>-os</orth>	
 :le:Pharus
 :no:Pha^r	us_i masc fem
+:no:Pha^r	os_i masc fem nom sg
 
 
 Pha^ri^a^cus		
@@ -155609,6 +155664,7 @@ Pho^no_le^ni^des
 pho^nos		<orth type=alt>-us</orth>	
 :le:phonos
 :no:pho^n	os_i masc
+:no:pho^n	us_i masc nom sg
 
 
 Phorbas		
@@ -156700,6 +156756,7 @@ Pinde^nissae
 Pindus		<orth>-os</orth>	
 :le:Pindus
 :no:Pind	us_i masc
+:no:Pind	os_i masc nom sg
 
 
 pi_ne_tum		
@@ -157389,6 +157446,7 @@ pitta^ci^um
 Pitta^cus		<orth>-os</orth>	
 :le:Pittacus
 :no:Pitta^c	us_i masc
+:no:Pitta^c	os_i masc nom sg
 
 
 Pittheus		<orth type=alt>dissyl.</orth>	<itype>e^i and e^os</itype>	<gen>m.</gen>
@@ -158333,6 +158391,7 @@ plinthi^um
 plinthus		<orth type=alt>-os</orth>	
 :le:plinthus
 :no:plinth	us_i masc fem
+:no:plinth	os_i masc fem nom sg
 
 
 Plisthe^nes		
@@ -159421,6 +159480,7 @@ po^ly^go^no^i_des
 po^ly^go^nos		<orth>-us</orth>	
 :le:polygonos
 :no:po^ly^go^n	os_i fem
+:no:po^ly^go^n	us_i fem nom sg
 
 
 po^ly^-go^non		<itype>i</itype>
@@ -159517,6 +159577,7 @@ po^ly^pha^gus
 Po^ly^phe_mus		<orth type=alt>-os</orth>	
 :le:Polyphemus
 :no:Po^ly^phe_m	us_i masc pers_name
+:no:Po^ly^phe_m	os_i masc pers_name nom sg
 
 
 Po^ly^plu_si^us		
@@ -164216,6 +164277,7 @@ pri^a_pismus
 Pri^a_ponne_sus		<orth>-os</orth>	
 :le:Priaponnesus
 :no:Pri^a_ponne_s	us_i fem
+:no:Pri^a_ponne_s	os_i fem nom sg
 
 
 Pri^a_pus#1		
@@ -166222,6 +166284,7 @@ pro_-na_tus#2
 pro^na_us		<orth>-os</orth>	
 :le:pronaus
 :no:pro^na_	us_i masc
+:no:pro^na_	os_i masc nom sg
 
 
 pro^-ne^pos		
@@ -168084,6 +168147,7 @@ Pseudo^lus
 pseudo^me^nos		<orth>-us</orth>	
 :le:pseudomenos
 :no:pseudo^me^n	os_i masc
+:no:pseudo^me^n	us_i masc nom sg
 
 
 pseudo^nardus		
@@ -176754,6 +176818,7 @@ rhythmo^poei^a
 rhythmos		<orth>-us</orth>	
 :le:rhythmos
 :no:rhythm	os_i masc
+:no:rhythm	us_i masc nom sg
 
 
 rhy^ti^um		
@@ -179274,6 +179339,7 @@ Sa^guntum
 Sa^guntus		<orth type=alt>-os</orth>	
 :le:Saguntus
 :no:Sa^gunt	us_i fem
+:no:Sa^gunt	os_i fem nom sg
 
 
 Sa^gunti_nus		<orth>Sa^gunti^us</orth>	
@@ -182585,6 +182651,7 @@ scimpo^di^on
 scincos		<orth>-us</orth>	
 :le:scincos
 :no:scinc	os_i masc
+:no:scinc	us_i masc nom sg
 
 
 scindu^la		
@@ -186587,6 +186654,7 @@ se_ri^o^la
 Se^ri_phus		<orth>-os</orth>	
 :le:Seriphus
 :no:Se^ri_ph	us_i fem
+:no:Se^ri_ph	os_i fem nom sg
 
 
 Se^ri_phi^us		
@@ -192799,6 +192867,7 @@ Sta^phy^le_
 staphy^li_nus		<orth>-os</orth>	
 :le:staphylinus
 :no:staphy^li_n	us_i fem
+:no:staphy^li_n	os_i fem nom sg
 
 
 sta^phy^lo^dendron		
@@ -199576,6 +199645,7 @@ sy^bo_tes
 sy_ca^mi_nus		<orth>-os</orth>	
 :le:sycaminus
 :no:sy_ca^mi_n	us_i fem
+:no:sy_ca^mi_n	os_i fem nom sg
 
 
 sy_ca^-mi_non		<itype>o_nis</itype>
@@ -199707,6 +199777,7 @@ syllo^gisma^ti^cus
 syllo^gismus		<orth>-os</orth>	
 :le:syllogismus
 :no:syllo^gism	us_i masc
+:no:syllo^gism	os_i masc nom sg
 
 
 syllo^gisti^cus		
@@ -200697,6 +200768,7 @@ taedu^lum
 Taena^rus		<orth type=alt>-os</orth>	
 :le:Taenarus
 :no:Taena^r	us_i masc fem
+:no:Taena^r	os_i masc fem nom sg
 
 
 Tae-na^rum		<orth type=alt>-on</orth>	
@@ -201535,6 +201607,7 @@ Tarta^rus#2
 Tartessus		<orth type=alt>Tarte_sus</orth>	<orth>-os</orth>	
 :le:Tartessus
 :no:Tartess	us_i fem
+:no:Tartess	os_i fem nom sg
 
 
 Tartessi^us		<orth type=alt>Tarte_si^us</orth>	
@@ -202213,6 +202286,7 @@ te_le^phi^on
 Te_le^phus		<orth type=alt>-os</orth>	
 :le:Telephus
 :no:Te_le^ph	us_i masc
+:no:Te_le^ph	os_i masc nom sg
 
 
 Te^le^si^a		
@@ -202815,6 +202889,7 @@ te^nor
 Te_nos		<orth>-us</orth>	
 :le:Tenos
 :no:Te_n	os_i fem
+:no:Te_n	us_i fem nom sg
 
 
 tensa		
@@ -204266,6 +204341,7 @@ thapsos
 Thapsus		<orth>-os</orth>	
 :le:Thapsus
 :no:Thaps	us_i fem
+:no:Thaps	os_i fem nom sg
 
 
 Thapsi^ta_ni		
@@ -204276,6 +204352,7 @@ Thapsi^ta_ni
 Tha^sus		<orth>-os</orth>	
 :le:Thasus
 :no:Tha^s	us_i fem
+:no:Tha^s	os_i fem nom sg
 
 
 Tha^si^us		
