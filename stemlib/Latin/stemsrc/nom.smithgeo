@@ -767,12 +767,6 @@
 :le:Antaeopolis
 :no:Antaeopol is_is fem
 
-:le:Antandrus
-:no:Antandr us_i masc
-
-:le:Antaradus
-:no:Antarad us_i masc
-
 :le:Antheia
 :no:Anthei a_ae fem
 
@@ -5250,9 +5244,6 @@
 
 :le:Cytherus
 :no:Cyther us_i masc
-
-:le:Cythnus
-:no:Cythn us_i masc
 
 :le:Cytinium
 :no:Cytin ius_i neut
@@ -10713,9 +10704,6 @@
 :le:Mychus
 :no:Mych us_i masc
 
-:le:Myconus
-:no:Mycon us_i masc
-
 :le:Myonia
 :no:Myoni a_ae fem
 
@@ -11041,9 +11029,6 @@
 
 :le:Neris
 :no:Ner is_is fem
-
-:le:Neritus
-:no:Nerit us_i masc
 
 :le:Nertereanes
 :no:Nerterean es_is fem
@@ -11854,9 +11839,6 @@
 :le:Oxthracae
 :no:Oxthrac a_ae fem pl
 
-:le:Oxus
-:no:Ox us_i masc
-
 :le:Oxybii
 :no:Oxybi us_i masc pl
 
@@ -12227,9 +12209,6 @@
 
 :le:Parthaynisa
 :no:Parthaynis a_ae fem
-
-:le:Parus
-:no:Par us_i masc
 
 :le:Parutae
 :no:Parut a_ae fem pl
@@ -12632,9 +12611,6 @@
 
 :le:Phellus
 :no:Phell us_i masc
-
-:le:Pheneus
-:no:Phene us_i masc
 
 :le:Pheugarum
 :no:Pheugar us_i neut
@@ -14649,9 +14625,6 @@
 :no:Sci a_ae fem
 
 #noanalysis:Scias
-
-:le:Sciathus
-:no:Sciath us_i masc
 
 :le:Scidrus
 :no:Scidr us_i masc
@@ -17072,9 +17045,6 @@
 :no:Ti us_i masc
 
 #noanalysis:Tlos
-
-:le:Tmarus
-:no:Tmar us_i masc
 
 :le:Tobius
 :no:Tobi us_i masc

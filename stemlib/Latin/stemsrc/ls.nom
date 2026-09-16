@@ -11404,6 +11404,7 @@ anta^moebaeus
 Antandro^s		<orth type=alt>-us</orth>	
 :le:Antandros
 :no:Antandr	os_i fem
+:no:Antandr	us_i fem nom sg
 
 
 Antandrius		
@@ -11424,6 +11425,7 @@ anta^po^do^sis
 Anta^ra^dos		<orth type=alt>-us</orth>	
 :le:Antarados
 :no:Anta^ra^d	os_i fem
+:no:Anta^ra^d	us_i fem nom sg
 
 
 antarcti^cus		
@@ -51075,6 +51077,7 @@ Cro^ni^a
 Cro^no^s		<orth type=alt>-us</orth>	
 :le:Cronos
 :no:Cro^n	os_i masc
+:no:Cro^n	us_i masc nom sg
 
 
 crosmis		
@@ -53176,6 +53179,7 @@ cy^lindrus		<itype>dri</itype>	<gen>m.</gen>
 Cylla^ro^s		<orth>-us</orth>	
 :le:Cyllaros
 :no:Cylla^r	os_i masc
+:no:Cylla^r	us_i masc nom sg
 
 
 Cylle_ne_		<itype>e_s and ae</itype>	<gen>f.</gen>
@@ -53884,6 +53888,7 @@ Cy^the_ri^us
 Cythno^s		<orth>-us</orth>	
 :le:Cythnos
 :no:Cythn	os_i fem
+:no:Cythn	us_i fem nom sg
 
 
 Cythnius		
@@ -60030,16 +60035,7 @@ Dindy^mus		<orth type=alt>-os</orth>
 :le:Dindymus
 :no:Dindy^m	us_i masc
 :no:Dindy^m	os_i masc nom sg
-
-
-Dindy^-mon		
-:le:Dindymon
-:no:Dindy^-m	os_i neut
-
-
-Dindy^ma		
-:le:Dindyma
-:no:Dindy^m	us_i neut pl
+:no:Dindy^m	os_i neut
 
 
 Dindy^me_ne_		
@@ -89802,6 +89798,7 @@ Hy_^men		<itype>e^nis</itype>
 Hy^me^naeus		<orth>-os</orth>	
 :le:Hymenaeus
 :no:Hy^me^nae	us_i masc pers_name
+:no:Hy^me^nae	os_i masc nom sg pers_name
 
 
 Hy^me^ne_i^us		
@@ -94737,6 +94734,7 @@ I_na^chi^a
 I_na^chus		<orth>-os</orth>	
 :le:Inachus
 :no:I_na^ch	us_i masc
+:no:I_na^ch	os_i masc nom sg
 
 
 I_na^chi^us		
@@ -111598,16 +111596,12 @@ leprae
 :no:lepr	a_ae fem pl
 
 
-Lepre^um		<orth>Lepre^on</orth>	<orth>Lepri^on</orth>	<orth>Lepri^um</orth>	
+Lepre^um		<orth>Lepre^on</orth>	<orth>Lepri^on</orth>	<orth>Lepri^um</orth>	<orth>Lepre^os</orth>	<orth>Lepre^us</orth>
 :le:Lepreum
-:no:Lepre^	us_i neut
-:no:Lepri^	us_i neut orth
-
-
-
-Lepre^os		<orth type=alt>-us</orth>	
-:le:Lepreos
+:no:Lepre^	os_i neut
+:no:Lepri^	os_i neut orth
 :no:Lepre^	os_i fem
+:no:Lepre^	us_i fem nom sg
 
 
 le^pro_sus		
@@ -123034,7 +123028,10 @@ Me^na^lippus		<orth>Me^la^nip-pus</orth>
 
 Me^nander		<orth>Me^nandros</orth>	<orth>-us</orth>	
 :le:Menander
-:no:Me^nand	er_i masc
+:no:Me^nand	er_ri masc
+:no:Me^nandr	os_i masc
+:no:Me^nandr	us_i masc nom sg
+:wd:Me^nandru_	irreg_nom2 masc gen sg
 
 
 Me^nandre_us		
@@ -130354,6 +130351,7 @@ my_ce_ti^as
 My^co^nos		<orth>-us</orth>	
 :le:Myconos
 :no:My^co^n	os_i fem
+:no:My^co^n	us_i fem nom sg
 
 
 My^co^ni^us		
@@ -130404,6 +130402,7 @@ Mygdo^ni^us
 My^i^a^gros		<orth>-us</orth>	
 :le:Myiagros
 :no:My^i^a^gr	os_i masc
+:no:My^i^a^gr	us_i masc nom sg
 
 
 My^io_des		<gen>m.</gen>
@@ -133232,7 +133231,8 @@ ne_ri_ta
 
 Ne_ri^to^s		<orth type=alt>-us</orth>	
 :le:Neritos
-:no:Ne_ri^t	os_i masc
+:no:Ne_ri^t	os_i masc fem
+:no:Ne_ri^t	us_i masc fem nom sg
 
 
 Ne_ri^ti^us		
@@ -139638,7 +139638,7 @@ Ole^ni^us#2
 O_le^nos#1		<orth>-us</orth>	
 :le:Olenos#1
 :no:O_le^n	os_i masc
-:wd:O_le^nus irreg_nom2 masc nom sg orth
+:no:O_le^n	us_i masc nom sg
 
 
 O_le^ni^des		
@@ -139649,7 +139649,7 @@ O_le^ni^des
 O_le^nos#2		<orth>-us</orth>	
 :le:Olenos#2
 :no:O_le^n	os_i fem
-:wd:O_le^nus irreg_nom2 masc nom sg orth
+:no:O_le^n	us_i fem nom sg
 
 
 O_le^ni^e_		
@@ -141866,6 +141866,7 @@ O_re_ta_ni
 O_re_us		<orth type=alt>-os</orth>	
 :le:Oreus
 :no:O_re_	us_i fem
+:no:O_re_	os_i fem nom sg
 
 
 o^rexis		
@@ -143251,7 +143252,8 @@ Oxiones
 
 Oxos		<orth>-us</orth>	
 :le:Oxos
-:no:O_x	os_i masc
+:no:O^_x	os_i masc
+:no:O^_x	us_i masc nom sg
 
 
 oxy^ba^phus		
@@ -145684,14 +145686,14 @@ Paphla^go^ni^a
 
 Pa^phos#1		<orth>-us</orth>	
 :le:Paphos#1
-:no:Pa^ph	os_i masc
-:wd:Pa^phus irreg_nom2 masc nom sg
+:no:Pa^ph	os_i masc fem
+:no:Pa^ph	us_i masc fem nom sg
 
 
 Pa^phos#2		<orth type=alt>-us</orth>	
 :le:Paphos#2
 :no:Pa^ph	os_i fem
-:wd:Pa^phus irreg_nom2 masc nom sg
+:no:Pa^ph	us_i fem nom sg
 :no:Pa^phi	us_i masc pl
 
 
@@ -146661,6 +146663,7 @@ Pa^ro_re_a		<orth>Pa^ro_ri_a</orth>
 Pa^ros		<orth type=alt>-us</orth>	
 :le:Paros
 :no:Pa^r	os_i fem
+:no:Pa^r	us_i fem nom sg
 
 
 Pa^ri^us		
@@ -148777,6 +148780,7 @@ pe_ga^non
 Pe_ga^sus#1		<orth type=alt>-os</orth>	
 :le:Pegasus#1
 :no:Pe_ga^s	us_i masc
+:no:Pe_ga^s	os_i masc nom sg
 
 
 Pe_ga^se_i+us		
@@ -154700,7 +154704,9 @@ Phe_mo^no^e_
 
 Phe^ne^os		<orth>-us</orth>	
 :le:Pheneos
-:no:Phe^ne^	os_i fem
+:no:Phe^ne^	os_i masc fem
+:no:Phe^ne^	us_i masc fem nom sg
+:no:Phe^ne^	os_i neut
 
 
 Phe^ne^um		<orth>Phe^ne^a_tae</orth>	<itype>a_rum</itype>	<gen>m.</gen>
@@ -156407,6 +156413,7 @@ Pi_e^ri^cus
 Pi_e^ros		<orth type=alt>-us</orth>	
 :le:Pieros
 :no:Pi_e^r	os_i masc
+:no:Pi_e^r	us_i masc nom sg
 
 
 Pi_e^ris		<itype>i^dis or i^dos</itype>	<gen>f.</gen>
@@ -182598,6 +182605,7 @@ Scia_po^des		<orth type=alt>Sci^o^po^des</orth>
 Sci^a^thos		<orth type=alt>-us</orth>	
 :le:Sciathos
 :no:Sci^a^th	os_i fem
+:no:Sci^a^th	us_i fem nom sg
 
 
 sci_bi^lis		
@@ -187374,6 +187382,7 @@ Sesti^a_nus		<orth type=alt>Sext-</orth>
 Se_stos		<orth type=alt>-us</orth>	
 :le:Sestos
 :no:Se_st	os_i fem
+:no:Se_st	us_i fem nom sg
 
 
 Se_sti^a^cus		
@@ -201582,6 +201591,7 @@ Tarsenses
 Tarta^rus#1		<orth>-os</orth>	
 :le:Tartarus#1
 :no:Tarta^r	us_i masc
+:no:Tarta^r	os_i masc nom sg
 
 
 Tarta^ra		
@@ -202822,6 +202832,7 @@ te^-ne_^bro_se_
 Te^ne^dos		<orth>-us</orth>	
 :le:Tenedos
 :no:Te^ne^d	os_i fem
+:no:Te^ne^d	us_i fem nom sg
 
 
 Te^ne^-di^us		
@@ -206507,16 +206518,13 @@ Tle_po^le^mus
 :no:Tle_po^le^m	us_i masc
 
 
-Tma^ro^s		<orth>-us</orth>	
+Tma^ro^s		<orth>-us</orth>	<orth>To^-ma^rus</orth>
 :le:Tmaros
 :no:Tma^r	os_i masc
-
-
-To^-ma^rus		<orth>Tma^-ri^us</orth>	
-:le:Tomarus
-:aj:To^-ma^r	us_a_um
-:aj:Tma^-ri^	us_a_um orth
-
+:no:Tma^r	us_i masc nom sg
+:no:To^-ma^r	us_i masc
+:aj:Tma^-r	ius_ia_ium
+:aj:To^-ma^r	ius_ia_ium orth
 
 
 tme_sis		
