@@ -11300,8 +11300,9 @@ annu^a
 
 a^no_dy^no^s		<orth type=alt>-us</orth>	<itype>a, on</itype>	<pos>adj.</pos>
 a^no_dy^non		
-:le:anodynon
-:no:a^no_dy^n	os_i neut
+:le:anodynos
+:no:a^no_dy^n	os_i masc neut
+:aj:a^no_dy^n	us_a_um
 
 
 a^no_ma^li^a		
@@ -66596,6 +66597,7 @@ e^nhy_^dris
 e^nhy_^dros		<orth type=alt>us</orth>	
 :le:enhydros
 :no:e^nhy_^dr	os_i masc
+:no:e^nhy_^dr	us_i masc nom sg
 
 
 e^nim		<orth>e^nimve_ro</orth>
@@ -118619,6 +118621,7 @@ mallon
 Mallos		<orth>us</orth>	
 :le:Mallos
 :no:Mall	os_i fem
+:no:Mall	us_i fem nom sg
 
 
 Mallo_tes		<orth>Ma_lo_tes</orth>	
@@ -118631,6 +118634,7 @@ Mallo_tes		<orth>Ma_lo_tes</orth>
 mallus		
 :le:mallus
 :no:mall	us_i masc
+:no:mall	os_i masc nom sg
 
 
 mallu^vi^ae		
@@ -139601,7 +139605,9 @@ o^le^a_ri^us
 O_le^a^ros		<orth type=alt>-us</orth>	<orth>O_li^a^ros</orth>	<orth type=alt>-us</orth>	
 :le:Olearos
 :no:O_le^a^r	os_i fem
+:no:O_le^a^r	us_i fem nom sg
 :no:O_li^a^r	os_i fem orth
+:no:O_li^a^r	us_i fem orth nom sg
 
 
 
