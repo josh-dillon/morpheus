@@ -4429,6 +4429,7 @@ ae_nu^lum
 Aenus#1		<orth>-os</orth>	
 :le:Aenus#1
 :no:Aen	us_i fem
+:no:Aen	os_i fem nom sg
 :no:Aeni^	us_i masc pl
 
 
@@ -6351,7 +6352,8 @@ agri^us#1
 
 Agri^us#2		<orth type=alt>-os</orth>	
 :le:Agrius#2
-:no:Agr	ius_i masc
+:no:Agr	ios_i masc
+:no:Agr	ius_i masc nom sg
 
 
 agro_stis		
@@ -11301,8 +11303,9 @@ annu^a
 a^no_dy^no^s		<orth type=alt>-us</orth>	<itype>a, on</itype>	<pos>adj.</pos>
 a^no_dy^non		
 :le:anodynos
-:no:a^no_dy^n	os_i masc neut
 :aj:a^no_dy^n	us_a_um
+:wd:a^no_dy^nos	os_i masc nom sg
+:wd:a^no_dy^non	os_i neut nom voc acc sg
 
 
 a^no_ma^li^a		
@@ -11311,6 +11314,12 @@ a^no_ma^li^a
 
 
 a^no_ma^lo^s		<orth type=alt>-us</orth>	<itype>a, on</itype>	<pos>adj.</pos>
+:le:anomalos
+:aj:a^no_ma^l	us_a_um
+:wd:a^no_ma^los	os_i masc nom sg
+:wd:a^no_ma^lon	os_i neut nom voc acc sg
+
+
 a^no^no^mastos		<itype>on</itype>	<pos>adj.</pos>
 a^no_ny^mo^s		
 :le:anonymos
@@ -32133,6 +32142,12 @@ Ca^ry^anda
 
 
 ca^ry^i_^no^s		<orth>-us</orth>	<itype>a, um</itype>	<pos>adj.</pos>
+:le:caryinos
+:aj:ca^ry^i_^n	us_a_um
+:wd:ca^ry^i_^nos	os_i masc nom sg
+:wd:ca^ry^i_^non	os_i neut nom voc acc sg
+
+
 ca^ry^i_tes		
 :le:caryites
 :no:ca^ry^i_t	es_ae masc
@@ -89904,6 +89919,7 @@ hypaethrus		<orth>-os</orth>
 hy-paethros		
 :le:hypaethros
 :no:hy-paethr	os_i masc
+:no:hy-paethr	us_i masc nom sg
 
 
 hypaethrum		
@@ -112001,6 +112017,12 @@ leucochry_sos
 
 
 leuco^co^mos		<orth>-us</orth>	<itype>a, um</itype>	<pos>adj.</pos>
+:le:leucocomos
+:aj:leuco^co^m	us_a_um
+:wd:leuco^co^mos	os_i masc nom sg
+:wd:leuco^co^mon	os_i neut nom voc acc sg
+
+
 leuco^co_um		
 :le:leucocoum
 :no:leuco^co_	us_i neut
@@ -112329,6 +112351,12 @@ lexi^di^um
 
 
 lexi^py^re^tos		<orth type=alt>-us</orth>	<itype>on and a, um</itype>	<pos>adj.</pos>
+:le:lexipyretos
+:aj:lexi^py^re^t	us_a_um
+:wd:lexi^py^re^tos	os_i masc nom sg
+:wd:lexi^py^re^ton	os_i neut nom voc acc sg
+
+
 lexi^py^rexi^a		
 :le:lexipyrexia
 :no:lexi^py^rexi^	a_ae fem
@@ -127355,11 +127383,8 @@ mo^nogramma
 mo^nogrammus		<orth>-os</orth>	<orth type=alt>-on</orth>	
 :le:monogrammus
 :aj:mo^nogramm	us_a_um
-
-
-mo^nogrammus		
-:le:monogrammus
-:no:mo^nogramm	us_i masc
+:wd:mo^nogrammos	os_i masc nom sg
+:wd:mo^nogrammon	os_i neut nom voc acc sg
 
 
 mo^no^i_de_s		<itype>is</itype>	<pos>adj.</pos>
@@ -130514,6 +130539,11 @@ myocto^nos
 
 
 Myonne_sus		<orth>-os</orth>	<itype>i</itype>
+:le:Myonnesus
+:no:Myonne_s	us_i masc fem
+:no:Myonne_s	os_i masc fem nom sg
+
+
 myo^pa^ro		
 :le:myoparo
 :no:myo^pa^r	o_oLnis masc
@@ -138285,6 +138315,11 @@ ocli^fe^ri^us
 
 
 Ocnus		<orth>-os</orth>
+:le:Ocnus
+:no:Ocn	us_i masc
+:no:Ocn	os_i masc nom sg
+
+
 o_^cre^a#1		
 :le:ocrea#1
 :no:o_^cre^	a_ae fem
@@ -146003,6 +146038,12 @@ Pa^ra^li_po^me^na
 
 
 pa^ra^li^us		<orth type=alt>-os</orth>	<itype>on</itype>	<pos>adj.</pos>
+:le:paralius
+:aj:pa^ra^li^	us_a_um
+:wd:pa^ra^li^os	os_i masc nom sg
+:wd:pa^ra^li^on	os_i neut nom voc acc sg
+
+
 pa^ralle_logrammus		
 :le:parallelogrammus
 :aj:pa^ralle_logramm	us_a_um
@@ -146560,7 +146601,9 @@ parmu^la_ri^us
 Parna_sus		<orth>-os</orth>	<orth>Parnas-sus</orth>	<orth>-os</orth>	
 :le:Parnasus
 :no:Parna_s	us_i masc
+:no:Parna_s	os_i masc nom sg
 :no:Parnas-s	us_i masc orth
+:no:Parnas-s	os_i masc orth nom sg
 
 
 
@@ -153954,11 +153997,13 @@ Peuce_#2
 peuce^da^num		<orth>-on</orth>	
 :le:peucedanum
 :no:peuce^da^n	us_i neut
+:no:peuce^da^n	os_i neut nom acc sg
 
 
 peuce^da^nos		
 :le:peucedanos
 :no:peuce^da^n	os_i masc
+:no:peuce^da^n	us_i masc nom sg
 
 
 Peuce^ti^a		
@@ -155797,7 +155842,9 @@ phre^ni^on
 Phrixus		<orth>-os</orth>	<orth>Phryxus</orth>	
 :le:Phrixus
 :no:Phrix	us_i masc
-:no:Phryx	us_i masc orth
+:no:Phrix	os_i masc nom sg
+:no:Phryx	us_i masc
+:no:Phryx	os_i masc nom sg
 
 
 
@@ -170557,12 +170604,14 @@ py_tisma
 
 pyxa^canthus		<orth>os</orth>	
 :le:pyxacanthus
-:no:pyxa^canth	us_i masc fem
+:no:pyxa^canth	os_i masc fem
+:no:pyxa^canth	us_i masc fem nom sg
 
 
 pyxa^ga^thus		<orth>os</orth>	
 :le:pyxagathus
-:no:pyxa^ga^th	us_i masc
+:no:pyxa^ga^th	os_i masc
+:no:pyxa^ga^th	us_i masc nom sg
 
 
 pyxi^da_tus		
@@ -190470,8 +190519,9 @@ So^ly^mus
 So^ly^mus		<orth>So^li^mus</orth>	<orth type=alt>-os</orth>	
 :le:Solymus
 :no:So^ly^m	us_i masc
-:no:So^li^m	us_i masc orth
-
+:no:So^ly^m	os_i masc nom sg
+:no:So^li^m	us_i masc
+:no:So^li^m	os_i masc nom sg
 
 
 somni^a_lis		
