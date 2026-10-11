@@ -67748,8 +67748,8 @@ e^pi_^tro^pe_
 
 e^pi_^tro^pus		<orth>-os</orth>	
 :le:epitropus
-:no:e^pi_^tro^p	us_i masc
-:no:e^pi_^tro^p	os_i masc nom sg
+:no:e^pi_^tro^p	os_i masc
+:no:e^pi_^tro^p	us_i masc nom sg
 
 
 e^pi^ty_rum		
@@ -69557,8 +69557,8 @@ Euri_pi^de_us
 
 euri_pus		<orth type=alt>-os</orth>	
 :le:euripus
-:no:euri_p	us_i masc
-:no:euri_p	os_i masc nom sg
+:no:euri_p	os_i masc
+:no:euri_p	us_i masc nom sg
 
 
 Euri_pus		
@@ -87804,8 +87804,8 @@ hippo^ca^me_lus
 
 hippo^campus		<orth>-os</orth>	
 :le:hippocampus
-:no:hippo^camp	us_i masc
-:no:hippo^camp	os_i masc nom sg
+:no:hippo^camp	os_i masc
+:no:hippo^camp	us_i masc nom sg
 
 
 hippo^centaurus		
@@ -89404,8 +89404,8 @@ Hy^a^cinthi^a
 
 hy^a^cinthus		<orth>-os</orth>	
 :le:hyacinthus
-:no:hy^a^cinth	us_i masc fem
-:no:hy^a^cinth	os_i masc fem nom sg
+:no:hy^a^cinth	os_i masc fem
+:no:hy^a^cinth	us_i masc fem nom sg
 
 
 Hy^a^des		
@@ -89711,8 +89711,8 @@ hydro^se^li_num
 
 hydrus#1		<orth>-os</orth>	
 :le:hydrus#1
-:no:hydr	us_i masc
-:no:hydr	os_i masc nom sg
+:no:hydr	os_i masc
+:no:hydr	us_i masc nom sg
 
 
 Hydru_s#2		
@@ -114106,8 +114106,8 @@ li^tha_ni^cus
 
 li^thargy^rus		<orth type=alt>-os</orth>	
 :le:lithargyrus
-:no:li^thargy^r	us_i masc
-:no:li^thargy^r	os_i masc nom sg
+:no:li^thargy^r	os_i masc
+:no:li^thargy^r	us_i masc nom sg
 
 
 li^thi_zon		
@@ -118662,7 +118662,6 @@ Mallo_tes		<orth>Ma_lo_tes</orth>
 mallus		
 :le:mallus
 :no:mall	us_i masc
-:no:mall	os_i masc nom sg
 
 
 mallu^vi^ae		
@@ -119718,8 +119717,8 @@ ma^ra^thri_tes
 
 ma^ra^thrus		<orth>-os</orth>	
 :le:marathrus
-:no:ma^ra^thr	us_i masc
-:no:ma^ra^thr	os_i masc nom sg
+:no:ma^ra^thr	os_i masc
+:no:ma^ra^thr	us_i masc nom sg
 
 
 ma^ra^-thrum		
@@ -124661,8 +124660,8 @@ me^to_pi^on		<orth>-um</orth>
 me^-tops		<itype>o_pis</itype>
 me^to_posco^pus		<orth>-os</orth>	
 :le:metoposcopus
-:no:me^to_posco^p	us_i masc
-:no:me^to_posco^p	os_i masc nom sg
+:no:me^to_posco^p	os_i masc
+:no:me^to_posco^p	us_i masc nom sg
 
 
 me^tops		<itype>o^pis, for metopion</itype>
@@ -130513,8 +130512,8 @@ mylasi^a		<orth>-e^a</orth>
 
 my^loecus		<orth>-os</orth>	
 :le:myloecus
-:no:my^loec	us_i masc
-:no:my^loec	os_i masc nom sg
+:no:my^loec	os_i masc
+:no:my^loec	us_i masc nom sg
 
 
 Myndus		<orth>-os</orth>	
@@ -140426,8 +140425,8 @@ o^ni_ros
 
 o^niscus		<orth>-os</orth>	
 :le:oniscus
-:no:o^nisc	us_i masc
-:no:o^nisc	os_i masc nom sg
+:no:o^nisc	os_i masc
+:no:o^nisc	us_i masc nom sg
 
 
 o^ni_tis		
@@ -158450,8 +158449,8 @@ plinthi^um
 
 plinthus		<orth type=alt>-os</orth>	
 :le:plinthus
-:no:plinth	us_i masc fem
-:no:plinth	os_i masc fem nom sg
+:no:plinth	os_i masc fem
+:no:plinth	us_i masc fem nom sg
 
 
 Plisthe^nes		
@@ -166343,8 +166342,8 @@ pro_-na_tus#2
 
 pro^na_us		<orth>-os</orth>	
 :le:pronaus
-:no:pro^na_	us_i masc
-:no:pro^na_	os_i masc nom sg
+:no:pro^na_	os_i masc
+:no:pro^na_	us_i masc nom sg
 
 
 pro^-ne^pos		
@@ -192931,8 +192930,8 @@ Sta^phy^le_
 
 staphy^li_nus		<orth>-os</orth>	
 :le:staphylinus
-:no:staphy^li_n	us_i fem
-:no:staphy^li_n	os_i fem nom sg
+:no:staphy^li_n	os_i fem
+:no:staphy^li_n	us_i fem nom sg
 
 
 sta^phy^lo^dendron		
@@ -199709,8 +199708,8 @@ sy^bo_tes
 
 sy_ca^mi_nus		<orth>-os</orth>	
 :le:sycaminus
-:no:sy_ca^mi_n	us_i fem
-:no:sy_ca^mi_n	os_i fem nom sg
+:no:sy_ca^mi_n	os_i fem
+:no:sy_ca^mi_n	us_i fem nom sg
 
 
 sy_ca^-mi_non		<itype>o_nis</itype>
@@ -199841,8 +199840,8 @@ syllo^gisma^ti^cus
 
 syllo^gismus		<orth>-os</orth>	
 :le:syllogismus
-:no:syllo^gism	us_i masc
-:no:syllo^gism	os_i masc nom sg
+:no:syllo^gism	os_i masc
+:no:syllo^gism	us_i masc nom sg
 
 
 syllo^gisti^cus		
