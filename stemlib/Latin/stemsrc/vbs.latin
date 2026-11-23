@@ -141,7 +141,7 @@
 :de:absent	are_vb
 :le:absisto
 :vs:ab-sist	conj3
-:vs:ab-sisti^t perfstem
+:vs:ab-sti^t perfstem
 :le:absolvo
 :vs:ab-solv	conj3
 :vs:ab-solv perfstem
@@ -8941,7 +8941,7 @@
 :vs:inter-sert pp4
 :le:intersisto
 :vs:inter-sist	conj3
-:vs:inter-sisti^t perfstem
+:vs:inter-sti^t perfstem
 :le:intersono
 :de:inter-so^n	are_vb
 :le:interspiro
@@ -16330,7 +16330,7 @@
 :vs:su^per-se_v perfstem
 :le:supersisto
 :vs:su^per-sist	conj3
-:vs:su^per-sisti^t perfstem
+:vs:su^per-sti^t perfstem
 :le:superspero
 :de:su^per-spe_r	are_vb
 :le:superstagno

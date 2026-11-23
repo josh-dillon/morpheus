@@ -741,9 +741,6 @@
 :vs:stit 	perfstem comp_only
 :vs:stit	pp4 comp_only
 
-:le:substituo
-:vs:sub-sti^t perfstem
-
 :le:suesco
 :vs:sue_sc	conj3
 :vs:sue_v	perfstem
