@@ -3408,8 +3408,8 @@
 :vs:consi^p	conj3_io
 :le:consisto
 :vs:con-sist	conj3
-:vs:con-sisti^t perfstem
-:vs:con-sisti^t pp4
+:vs:con-sti^t perfstem
+:vs:con-sti^t pp4
 :le:consocio
 :de:con-so^ci	are_vb
 :le:consolo
@@ -4722,8 +4722,8 @@
 :vs:de_-si^p	conj3_io
 :le:desisto
 :vs:de_-sist	conj3
-:vs:de_-sisti^t perfstem
-:vs:de_-sisti^t pp4
+:vs:de_-sti^t perfstem
+:vs:de_-sti^t pp4
 :le:desolo
 :de:de_-so_l	are_vb
 :le:desolvo
@@ -6627,8 +6627,8 @@
 :de:ex-si^nu^	are_vb
 :le:exsisto
 :vs:ex-sist	conj3
-:vs:ex-sisti^t perfstem
-:vs:ex-sisti^t pp4
+:vs:ex-sti^t perfstem
+:vs:ex-sti^t pp4
 :le:exsolesco
 :vs:ex-so^le_sc	conj3
 :le:exsolvo
@@ -6681,6 +6681,8 @@
 :de:ex-stirp	are_vb
 :le:exsto
 :de:ex-st	are_vb
+:vs:ex-sti^t perfstem
+:vs:ex-sti^t pp4
 :le:exstruo
 :vs:ex-stru^	conj3
 :vs:ex-stru_x perfstem
@@ -8539,7 +8541,7 @@
 :vs:insi^pu^ perfstem
 :le:insisto
 :vs:in-sist	conj3
-:vs:in-sisti^t perfstem
+:vs:in-sti^t perfstem
 :le:insoleo
 :vs:in-so^l	conj2
 :le:insolesco
@@ -10590,8 +10592,8 @@
 :de:ob-si^p	are_vb
 :le:obsisto
 :vs:ob-sist	conj3
-:vs:ob-sisti^t perfstem
-:vs:ob-sisti^t pp4
+:vs:ob-sti^t perfstem
+:vs:ob-sti^t pp4
 :le:obsolefacio
 :vs:obso^le^fa^c	conj3_io
 :vs:obso^le^fe_c perfstem
@@ -11879,7 +11881,7 @@
 :de:per-si^l	ire_vb
 :le:persisto
 :vs:per-sist	conj3
-:vs:per-sisti^t perfstem
+:vs:per-sti^t perfstem
 :le:persolido
 :de:per-so^li^d	are_vb
 :le:persolvo
@@ -14500,7 +14502,7 @@
 :vs:re^-si^p	conj3_io
 :le:resisto
 :vs:re^-sist	conj3
-:vs:re^-sisti^t perfstem
+:vs:re^-sti^t perfstem
 :le:resolvo
 :vs:re^-solv	conj3
 :vs:re^-solv perfstem
@@ -15709,7 +15711,7 @@
 :vs:sub-si^lu^ perfstem
 :le:subsisto
 :vs:sub-sist	conj3
-:vs:sub-sisti^t perfstem
+:vs:sub-sti^t perfstem
 :le:subsono
 :de:sub-so^n	are_vb
 :le:subsortior
